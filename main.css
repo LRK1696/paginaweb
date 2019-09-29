@@ -1,0 +1,237 @@
+* {
+            margin: 0;
+            font-family: Abhaya Libre ExtraBold;
+}
+html{
+            scroll-behavior: smooth;
+}
+
+@font-face {
+            font-family: titulo;
+            src: url(./font/AbhayaLibre-Regular.ttf);
+            font-family: frase;
+            src: url(./font/AbrilFatface-Regular.ttf);
+            font-family: boton;
+            src: url(./font/AdventPro-Regular.ttf);
+
+}
+
+.primera-pantalla{
+            width: 100%;
+            height: 750px;
+}
+
+.fondo {
+            width: 50%;
+            overflow: hidden;
+            z-index: -1;
+            position: absolute;
+            height: 100vh;
+
+}
+
+.background {
+            position: relative;
+            width: 100%;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+}
+
+nav .navbar-brand {
+
+            font-family: titulo;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 30px;
+            line-height: 47px;
+
+}
+
+.nav-item {
+
+            font-family: titulo;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 26px;
+            line-height: 42px;
+
+            color: #7A9195;
+}
+
+.frase {
+            width: 35%;
+            padding-left: 25px;
+            position: relative;
+            margin: 0;
+            top: 200px;
+}
+
+.frase h3 {
+            font-family: frase;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 64px;
+            line-height: 64px;
+
+            color: #7A9195;
+}
+
+.frase span {
+
+
+            color: #38404A;
+}
+
+.frase p {
+            font-family: titulo;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 33px;
+            line-height: 39px;
+            letter-spacing: -0.03em;
+            color: #313434;
+            padding-top: 10px;
+
+}
+
+.btn-inscribete {
+            width: 236px;
+            height: 63px;
+            border-radius: 10px;
+            background-color: #AA9384;
+            margin-top: 40px;
+}
+
+.btn-inscribete .inscribete {
+            font-family: boton;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 33px;
+            text-align: center;
+            color: #FFFFFF;
+            padding: 15px 0px 0px 50px;
+}
+
+.frente {
+            width: 50%;
+            overflow: hidden;
+            z-index: -1;
+            position: absolute;
+            height: 100vh;
+}
+/* segunda pantalla */
+
+.container-mancha2 .mancha2{
+            width: 100px;
+            position: relative;
+            float: right;
+}
+.titulo2 {
+            padding-top: 100px;
+}
+.titulo2 hr{
+            width: 200px;
+            border: 3px solid #7A9195;
+            margin:  auto;
+}
+
+.titulo2 h3{
+            font-family: Abril Fatface;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 50px;
+            line-height: 67px;
+            text-align: center;
+            color: #38404A;
+            padding-left: 60px;
+}
+.titulo2 p{
+            
+font-family: Abhaya Libre;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 39px;
+text-align: center;
+padding-right: 60px;
+color: #313434;
+}
+
+.container-nosotros .imagen .imagen1{
+            width: 150px;
+            position: relative;
+            border-radius: 50%; 
+}
+.container-hacemos .imagen4 .imagen5{
+            width: 150px;
+            position: relative;
+            border-radius: 50%; 
+}
+.container-nosotros,  .container-hacemos{
+            width: 500px;
+            margin: 0 auto;
+}
+.manchita{
+            position: absolute;
+
+}
+
+.manchita .manchon{
+            width: 400px;
+}
+/* pantalla 3 */
+.pantalla3 {
+            padding-top: 10px;
+}
+
+.pantalla3 hr {
+            width: 200px;
+            border: 3px solid #7A9195;
+            margin: 0 auto;
+}
+.titulo3{
+            padding-top: 120px;
+}
+
+.titulo3 h4 {
+            text-align: center;
+            font-family: Abril Fatface;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 50px;
+            line-height: 70px;
+            text-align: center;
+            color: #38404A;
+}
+
+.titulo3 p {
+            width: 791px;
+            height: 78px;
+            left: 314px;
+            top: 208px;
+            font-family: Abhaya Libre;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 33px;
+            line-height: 39px;
+            text-align: center;
+            color: #313434;
+            margin:0 auto;
+}
+.carousel{
+            background-color: rgb(248, 250, 250);
+}
+.container-mancha4 .mancha4{
+width:400px;
+position: absolute;
+}
+.container-mancha5 .mancha5{
+            width: 100px;
+            float:right;
+}
+.carousel-inner {
+            padding: 50px;
+}
+
